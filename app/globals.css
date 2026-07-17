@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+/* Dark mode via class strategy: <html class="dark"> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+/*
+ * The hero / final-CTA mesh gradient.
+ * Light, airy, Radiant-style: layered radial gradients in
+ * indigo → sky → emerald → amber at low opacities over a soft base.
+ * Tune the colors here to re-theme the whole template.
+ */
+.gradient-mesh {
+  background-color: #eef2ff;
+  background-image:
+    radial-gradient(at 15% 20%, rgba(129, 140, 248, 0.35) 0px, transparent 55%),
+    radial-gradient(at 85% 10%, rgba(56, 189, 248, 0.3) 0px, transparent 55%),
+    radial-gradient(at 75% 85%, rgba(52, 211, 153, 0.25) 0px, transparent 55%),
+    radial-gradient(at 25% 90%, rgba(251, 191, 36, 0.25) 0px, transparent 55%),
+    radial-gradient(at 50% 50%, rgba(224, 231, 255, 0.6) 0px, transparent 70%);
+}
+
+.dark .gradient-mesh {
+  background-color: #0b1023;
+  background-image:
+    radial-gradient(at 15% 20%, rgba(99, 102, 241, 0.25) 0px, transparent 55%),
+    radial-gradient(at 85% 10%, rgba(14, 165, 233, 0.18) 0px, transparent 55%),
+    radial-gradient(at 75% 85%, rgba(16, 185, 129, 0.14) 0px, transparent 55%),
+    radial-gradient(at 25% 90%, rgba(245, 158, 11, 0.12) 0px, transparent 55%),
+    radial-gradient(at 50% 50%, rgba(30, 41, 59, 0.5) 0px, transparent 70%);
+}
+
+/* Scroll-reveal (used by components/Reveal.tsx) */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.7s cubic-bezier(0.21, 0.47, 0.32, 0.98),
+    transform 0.7s cubic-bezier(0.21, 0.47, 0.32, 0.98);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Smooth anchor scrolling, offset for sticky-ish nav */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+section[id] {
+  scroll-margin-top: 2rem;
+}
+
+/* FAQ accordion: rotate the plus icon when open */
+details[open] .faq-icon {
+  transform: rotate(45deg);
+}
+
+details .faq-icon {
+  transition: transform 0.2s ease;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}

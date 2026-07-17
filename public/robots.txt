@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /thanks/
+
+Sitemap: https://pixelandoak-launchpad.pages.dev/sitemap.xml

@@ -1,0 +1,33 @@
+{
+  "name": "launchpad-saas-template",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "description": "A free, production-ready SaaS landing page template built with Next.js 15, TypeScript, and Tailwind CSS v4. By Pixel & Oak.",
+  "keywords": [
+    "saas-landing-page-template",
+    "startup-landing-page-template",
+    "nextjs-template",
+    "tailwind-template",
+    "landing-page",
+    "free-template"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "npx serve@latest out"
+  },
+  "dependencies": {
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.10",
+    "typescript": "^5.8.3"
+  }
+}
