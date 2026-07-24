@@ -27,7 +27,7 @@ Most free templates look free. LaunchPad is built to the standard of a $99 premi
 
 ```bash
 # 1. Clone the template
-git clone https://github.com/pixelandoak/launchpad-saas-template.git my-landing-page
+git clone https://github.com/haider484991/launchpad-nextjs-saas-template.git my-landing-page
 cd my-landing-page
 
 # 2. Install dependencies
