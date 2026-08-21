@@ -318,7 +318,7 @@ export const siteConfig = {
     ] satisfies FooterColumn[],
     attribution: {
       label: "Built by Pixel & Oak",
-      href: "https://pixelandoak.com?utm_source=launchpad-template",
+      href: "https://pixelandoak.com/templates/saas-landing-page-template/?utm_source=launchpad-template",
     },
   },
 } as const;

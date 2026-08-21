@@ -3,6 +3,7 @@
 **A production-ready SaaS landing page template built with Next.js 15, TypeScript, and Tailwind CSS v4.** The landing page your side project deserves — hero, features, pricing, FAQ, dark mode, the lot. Clone it, edit one config file, deploy for free. Live before Monday.
 
 **[Live demo →](https://pixelandoak-launchpad.pages.dev)**
+**[Template page →](https://pixelandoak.com/templates/saas-landing-page-template/)**
 
 ![LaunchPad screenshot](./screenshot.png)
 
@@ -139,4 +140,4 @@ The footer ships with a small "Built by Pixel & Oak" link. You're welcome to rem
 
 ---
 
-Built by [Pixel & Oak](https://pixelandoak.com) — we build fast, SEO-ready websites. If you'd rather ship your product while someone else ships your website, [say hello](https://pixelandoak.com).
+Built by [Pixel & Oak](https://pixelandoak.com/templates/saas-landing-page-template/) — we build fast, SEO-ready websites. If you'd rather ship your product while someone else ships your website, [say hello](https://pixelandoak.com/templates/saas-landing-page-template/).
