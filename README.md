@@ -5,6 +5,8 @@
 **[Live demo →](https://pixelandoak-launchpad.pages.dev)**
 **[Template page →](https://pixelandoak.com/templates/saas-landing-page-template/)**
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhaider484991%2Flaunchpad-nextjs-saas-template&project-name=launchpad-saas&repository-name=launchpad-saas)
+
 ![LaunchPad screenshot](./screenshot.png)
 
 ## Why LaunchPad?
